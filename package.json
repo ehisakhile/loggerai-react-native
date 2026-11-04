@@ -1,0 +1,41 @@
+{
+  "name": "@loggerai/react-native",
+  "version": "0.1.0",
+  "description": "LoggerAI for React Native and Expo: crashes and errors, screens, network calls and a report sheet, linked to what your servers did.",
+  "main": "src/index.js",
+  "types": "src/index.d.ts",
+  "react-native": "src/index.js",
+  "sideEffects": false,
+  "files": [
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": ">=17",
+    "react-native": ">=0.70"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.js"
+  },
+  "keywords": [
+    "monitoring",
+    "crash-reporting",
+    "error-tracking",
+    "react-native",
+    "expo",
+    "observability",
+    "mobile"
+  ],
+  "homepage": "https://loggerai.uk",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ehisakhile/loggerai-react-native.git"
+  },
+  "author": "LoggerAI <dev@loggerai.uk>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
